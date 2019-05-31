@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  height: 100%;
+	overflow: hidden;
+	cursor: none;
+}
+
+#world { 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.holder{
+  position: absolute;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  color:transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-family : 'Roboto',sans-serif;
+  
+}
+
+.score-board{
+  display:flex;
+  opacity: 0;
+  margin-top: 5vh;
+  
+  z-index: 5;
+  
+  font-size: 4vh;
+}
+
+.message{
+  display:none;
+  margin-top: 10vh;
+  z-index: 5;
+  font-size: 70vh;
+}
